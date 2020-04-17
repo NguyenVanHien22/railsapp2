@@ -1,0 +1,89 @@
+Started GET "/" for ::1 at 2020-04-16 23:43:45 +0700
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.6ms | Allocations: 416)
+Completed 200 OK in 44ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 2332)
+
+
+Started GET "/" for ::1 at 2020-04-17 15:06:23 +0700
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.4ms | Allocations: 416)
+Completed 200 OK in 29ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 2332)
+
+
+Started GET "/" for ::1 at 2020-04-17 15:09:22 +0700
+  
+SyntaxError (D:/Learn/Rails/railsapp2/config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+  do 
+  ^~):
+  
+config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+Started GET "/" for ::1 at 2020-04-17 15:11:13 +0700
+  
+SyntaxError (D:/Learn/Rails/railsapp2/config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+  do 
+  ^~):
+  
+config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+config/routes.rb:2: syntax error, unexpected do, expecting end-of-input
+Started GET "/" for ::1 at 2020-04-17 15:12:27 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 670)
+
+
+Started GET "/" for ::1 at 2020-04-17 15:12:33 +0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 270)
+
+
+Started GET "/" for ::1 at 2020-04-17 15:12:52 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 423)
+
+
+Started GET "/" for ::1 at 2020-04-17 15:13:50 +0700
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 423)
+
+
+Started GET "/" for ::1 at 2020-04-17 15:14:49 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 424)
+
+
+Started GET "/" for ::1 at 2020-04-17 15:16:41 +0700
+  
+ArgumentError (Invalid route name, already in use: 'root' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2020-04-17 15:17:47 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#goodbye as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 424)
+
+
